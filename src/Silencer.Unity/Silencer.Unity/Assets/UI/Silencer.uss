@@ -1,0 +1,86 @@
+#root {
+    width: 600px;
+    height: 500px;
+}
+
+#title-bar {
+    justify-content: space-between;
+    margin-bottom: 4px;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2px;
+}
+
+#title-bar > #header {
+    margin-bottom: 0;
+    flex-direction: row;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#title-bar > #header > #icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    background-image: url('project://database/Assets/Images/shh.png?fileID=2800000&guid=f21f966a0d0d92f4a94d59492c95975b&type=3#shh');
+    -unity-background-image-tint-color: rgb(192, 199, 213);
+}
+
+#title-bar > #header > .unity-label {
+    font-size: 24px;
+    -unity-font-style: normal;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#title-bar > #close-button {
+    margin-right: 0;
+}
+
+#content {
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+#buttons-container {
+    flex-shrink: 0;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+
+#buttons-container > .unity-button {
+    align-self: auto;
+    flex-basis: 1px;
+    flex-grow: 1;
+}
+
+#add-string-button {
+    margin-right: 8px;
+}
+
+#edit-button {
+    margin-right: 8px;
+}
+
+#string-input {
+    white-space: normal;
+    flex-grow: 1;
+    max-height: 80px;
+}
+
+#saved-strings-container {
+    background-color: rgb(30, 33, 41);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    height: 330px;
+}
+
+#add-string-button {
+    margin-right: 8px;
+}

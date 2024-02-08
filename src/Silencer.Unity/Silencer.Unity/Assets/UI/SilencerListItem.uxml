@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/SilencerListItem.uss?fileID=7433441132597879392&amp;guid=8a8580482f551bb4da99d97cf6221bde&amp;type=3#SilencerListItem" />
+    <ui:VisualElement class="saved-item regex" style="margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px;">
+        <ui:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a tempus turpis. Nulla egestas ac felis ut varius. Nunc non dolor in risus rutrum volutpat. Vestibulum pulvinar pellentesque tortor, at cursus sapien vulputate et. Donec rutrum, mauris placerat dapibus lobortis, dolor mi molestie nunc, ullamcorper facilisis tortor leo a nibh. Mauris nec purus eros. Quisque consectetur blandit quam, quis volutpat nisl volutpat eu." class="saved-item-label" />
+        <ui:Button display-tooltip-when-elided="true" class="saved-item-button">
+            <ui:VisualElement class="trash-icon" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

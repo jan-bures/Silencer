@@ -1,0 +1,30 @@
+{
+  "spec": "2.0",
+  "mod_id": "Silencer",
+  "author": "munix",
+  "name": "Silencer",
+  "description": "Silence Unity and BepInEx log messages based on a string search or a regular expression pattern.",
+  "source": "https://github.com/jan-bures/Silencer",
+  "version": "1.0.0",
+  "version_check": "https://raw.githubusercontent.com/jan-bures/Silencer/main/plugin_template/swinfo.json",
+  "ksp2_version": {
+    "min": "0.2.1",
+    "max": "*"
+  },
+  "dependencies": [
+    {
+      "id": "com.github.x606.spacewarp",
+      "version": {
+        "min": "1.9.0",
+        "max": "*"
+      }
+    },
+    {
+      "id": "UitkForKsp2",
+      "version": {
+        "min": "2.4.2",
+        "max": "*"
+      }
+    }
+  ]
+}

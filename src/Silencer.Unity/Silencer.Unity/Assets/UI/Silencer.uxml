@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Silencer.uss?fileID=7433441132597879392&amp;guid=f49119c0dc6aec7469a0374f7f606ceb&amp;type=3#Silencer" />
+    <ui:VisualElement name="root" class="root">
+        <ui:VisualElement name="title-bar">
+            <ui:VisualElement name="header">
+                <ui:VisualElement name="icon" />
+                <ui:Label text="Silencer" name="Label" />
+            </ui:VisualElement>
+            <ui:Button text="×" name="close-button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="content" class="content">
+            <ui:TextField name="string-input" multiline="true" />
+            <ui:VisualElement name="buttons-container">
+                <ui:Button text="Add string" name="add-string-button" />
+                <ui:Button text="Add regex" name="add-regex-button" />
+                <ui:Button text="Save changes" name="edit-button" style="display: none;" />
+                <ui:Button text="Cancel" name="cancel-button" style="display: none;" />
+            </ui:VisualElement>
+            <ui:ListView focusable="true" name="saved-strings-container" virtualization-method="DynamicHeight" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
